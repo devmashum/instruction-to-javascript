@@ -8,3 +8,4 @@ while (faisal <= 10) {
 for (faisal = 1; faisal <= 10; faisal++) {
     console.log("i am sorry", faisal)
 }
+

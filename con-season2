@@ -1,0 +1,5 @@
+const name = "mehedi";
+
+const result = name.includes("li");
+
+console.log(result)

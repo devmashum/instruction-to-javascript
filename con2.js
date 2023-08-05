@@ -20,7 +20,9 @@ const Pets = ["Cat", "Tiger", "Dog", "Monkey", "Horst", "Panda"]
 
 // console.log(result);
 
-const result = Pets.splice(3, 3);
+const result = Pets.splice(3, 0, "Rat");
 
 console.log(result);
+
+console.log(Pets);
 

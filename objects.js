@@ -5,3 +5,11 @@ var shoppingCart = {
     mouse: 1,
     pen: 25,
 }
+
+const keys = Object.keys(shoppingCart);
+
+console.log(keys);
+
+const values = Object.values(shoppingCart);
+
+console.log(values);

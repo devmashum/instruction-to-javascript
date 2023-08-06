@@ -1,4 +1,4 @@
-var shoppingCart = {
+const shoppingCart = {
     books: 3,
     sunglass: 1,
     keyboard: 5,
@@ -6,10 +6,16 @@ var shoppingCart = {
     pen: 25,
 }
 
-const keys = Object.keys(shoppingCart);
+// const keys = Object.keys(shoppingCart);
 
-console.log(keys);
+// console.log(keys);
 
-const values = Object.values(shoppingCart);
+// const values = Object.values(shoppingCart);
 
-console.log(values);
+// console.log(values);
+for (let i in shoppingCart) {
+    console.log(i, shoppingCart[i])
+
+
+
+}
